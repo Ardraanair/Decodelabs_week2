@@ -86,7 +86,7 @@ These questions were selected because they commonly expose weaknesses in reasoni
 * Prompt Engineering
 * Chain-of-Thought Reasoning
 * GitHub
-
+link:https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221mzyDSk12ukviXqPMScyhS6EoU4HhPNcI%22%5D,%22action%22:%22open%22,%22userId%22:%22117155938400731026692%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing
 ---
 
 ## Learning Outcomes
