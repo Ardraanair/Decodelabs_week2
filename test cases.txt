@@ -1,0 +1,94 @@
+case 1 Test the Chain-of-Thought Logic Engine using the following problem.
+
+Problem: A bat and a ball cost ₹110 in total. The bat costs ₹100 more than the
+ball. How much does the ball cost?
+
+Solve according to the system instructions.
+
+Reasoning Summary
+
+1.  Fact Extraction: The total cost of the bat and ball is ₹110, and the price
+    difference between them is ₹100.
+2.  Step-by-Step Logic: By representing the cost of the ball as x, the cost of
+    the bat is defined as x + 100. Setting up the equation x + (x + 100) = 110
+    allows for the calculation of the unknown.
+3.  Calculation: Solving the equation 2x + 100 = 110 results in 2x = 10, which
+    simplifies to x = 5.
+
+Final Answer
+
+The ball costs ₹5.
+
+case 2 If 5 machines make 5 widgets in 5 minutes,
+how long would 100 machines take to make 100 widgets?
+
+Reasoning Summary
+
+1.  Fact Extraction: The initial rate is 5 machines producing 5 widgets in 5
+    minutes, which implies each machine produces 1 widget every 5 minutes.
+2.  Step-by-Step Logic: Since the machines work in parallel, increasing the
+    number of machines to 100 to produce 100 widgets maintains the same ratio of
+    one machine per widget.
+3.  Calculation: Because each individual machine still takes 5 minutes to
+    complete one widget, the total time for 100 machines to complete 100 widgets
+    simultaneously remains unchanged.
+
+Final Answer
+
+It would take 5 minutes.
+
+case 3 A patch of lily pads doubles in size every day. If it covers the entire lake
+in 48 days, on what day was the lake half covered?
+
+Reasoning Summary
+
+1.  Fact Extraction: The lily pads double in size every day, and the lake is
+    fully covered (100%) on Day 48.
+2.  Step-by-Step Logic: Working backward from the point of full coverage, if the
+    size doubles every day, it must have been half the size on the previous day.
+3.  Calculation: Half of the total coverage (50%) occurs exactly one day before
+    full coverage (100%), which is Day 48 minus 1.
+
+Final Answer
+
+The lake was half covered on Day 47.
+
+case 4 Sarah lives in Mumbai. Mumbai has many beaches. Sarah's brother John was born in
+Delhi.
+
+Where was John born?
+
+Reasoning Summary
+
+1.  Fact Extraction:
+      - Sarah lives in Mumbai. (Irrelevant)
+      - Mumbai has many beaches. (Irrelevant)
+      - Sarah's brother John was born in Delhi. (Relevant)
+2.  Step-by-Step Logic: The problem explicitly states the location of John's
+    birth in the third sentence. No inference regarding Sarah's current location
+    is required.
+3.  Verification: The statement "John was born in Delhi" directly answers the
+    question.
+
+Final Answer
+
+John was born in Delhi.
+
+case 5 A shirt costs ₹100. Its price is increased by 20% and then decreased by 20%.
+
+What is the final price?
+
+Reasoning Summary
+
+1.  Fact Extraction: The initial price is ₹100. It undergoes a 20% increase
+    followed by a 20% decrease on the new price.
+2.  Step-by-Step Logic: Calculate the increased price by adding 20% of the
+    original value. Then, calculate the decrease by taking 20% of the updated
+    higher value, rather than the original ₹100.
+3.  Calculation:
+      - Increase: 100 + (0.20 \times 100) = 120.
+      - Decrease: 120 - (0.20 \times 120) = 120 - 24 = 96.
+
+Final Answer
+
+The final price is ₹96.
